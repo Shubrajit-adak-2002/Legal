@@ -40,8 +40,8 @@
 
 <body>
     <!-- navbar to first banner -->
-    <header class="container lg:px-44 mx-auto mt-12">
-        <div class="navbar bg-base-100">
+    <header class="lg:container lg:px-44 mx-auto mt-12">
+        <div class="navbar bg-base-100 w-[470px] lg:w-auto">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -75,7 +75,8 @@
                 <a class="btn poppins capitalize skin text-white hover:text-black">Free Consultation</a>
             </div>
         </div>
-        <div class="mt-12 relative w-full">
+        <!-- Banner image -->
+        <div class="mt-12 relative lg:w-full w-[470px]">
             <img src="images/banner.png" class="w-auto h-[400px] lg:h-[550px]" alt="">
             <h1
                 class="eb absolute p-4 bottom-48 text-white px-32 lg:bottom-56 lg:px-60 text-3xl lg:text-7xl text-center">
@@ -91,12 +92,13 @@
         </div>
     </header>
     <!-- Legal practice area -->
-    <main class="container lg:px-44 mt-28 px-20">
-        <div class="text-center space-y-6">
+    <main class="lg:container lg:px-44 mt-28 px-20 relative right-[39px] lg:right-0">
+        <div class="text-center space-y-6 w-[350px] lg:w-auto">
             <h1 class="eb text-4xl">The Legal Practice Area</h1>
             <p class="gray">There are many variations of passages of Lorem Ipsum available, but the majority have <br>
                 suffered alteration in some form, by injected humour.</p>
         </div>
+        <!-- Law cards -->
         <div class="mt-16 flex flex-col lg:flex-row gap-5 lg:gap-0">
             <div class="w-96 bg-base-100 border-2 lg:border-l-0 lg:border-r-0 lg:border-t-0 lg:border-b-2">
                 <figure class="px-40 pt-10">
@@ -185,9 +187,9 @@
                 </div>
             </div>
         </div>
-        <!-- Slider -->
+        <!-- Slider caption-->
         <div class="container lg:px-44 mt-32">
-            <div class="space-y-6">
+            <div class="space-y-6 w-[350px] lg:w-auto">
                 <h1 class="eb text-4xl text-center">What Our Client Say</h1>
                 <p class="text-center gray poppins">There are many variations of passages of Lorem Ipsum available, but
                     the
@@ -195,8 +197,9 @@
                     alteration in some form, by injected humour.</p>
             </div>
         </div>
+        <!-- Slider -->
         <div class="mt-16">
-            <div class="carousel w-full lg:h-[500px] rounded-md relative">
+            <div class="carousel w-[350px] md:w-full lg:h-[500px] rounded-md relative">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="images/slider-1.jpg" class="w-full" />
                     <div class="absolute top-14 left-28 lg:left-[509px] lg:top-48">
@@ -232,7 +235,7 @@
             </div>
         </div>
         <!-- FAQ -->
-        <div class="mt-32">
+        <div class="mt-32 w-[350px] lg:w-auto">
             <div class="text-center space-y-6">
                 <h1 class="eb text-4xl">Frequently Asked Any Questions</h1>
                 <p class="poppins gray">There are many variations of passages of Lorem Ipsum available, but the majority
@@ -241,7 +244,7 @@
             <div class="mt-16 flex gap-7 flex-col-reverse lg:flex-row">
                 <div class="flex-1">
                     <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" checked="checked" />
+                        <input type="radio" name="my-accordion-3" checked="checked"/>
                         <div class="collapse-title text-2xl font-medium eb">
                             1. Are application fee waivers available?
                         </div>
@@ -289,12 +292,12 @@
         </div>
         <!-- Last part -->
         <div class="mt-32">
-            <div class="text-center space-y-6">
+            <div class="text-center space-y-6 lg:w-auto w-[350px]">
                 <h1 class="eb text-4xl">Contact With Us</h1>
                 <p class="poppins gray">There are many variations of passages of Lorem Ipsum available, but the majority
                     have suffered alteration in some form, by injected humour.</p>
             </div>
-            <div class="mt-16 flex gap-7 flex-col lg:flex-row">
+            <div class="mt-16 flex gap-7 flex-col lg:flex-row lg:w-auto w-[350px]">
                 <div class="grid grid-cols-1 lg:grid-cols-2 flex-1 gap-3 lg:gap-0">
                     <div class="h-72 bg-[#F3F3F3] lg:border-b-2 p-14 px-36 lg:px-24 space-y-3"><img
                             src="images/location.png" class="px-5" alt="">
@@ -353,7 +356,7 @@
         </div>
     </main>
     <!-- Footer -->
-    <footer class="footer p-10 bg-[#111] text-base-content lg:container lg:px-44 mt-32">
+    <footer class="footer p-10 bg-[#111] text-base-content lg:container lg:px-44 mt-32 lg:w-auto w-[470px]">
         <div class="poppins text-[#CFCFCF]">
             <span class="footer-title"><img src="images/logo.png" alt=""></span>
             <a class="link link-hover">There are many variations of <br> passages of Lorem Ipsum <br> available, but the majority
